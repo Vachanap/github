@@ -18,7 +18,7 @@ else
 fi
 echo .
 if [ -d "/Library/Tomcat/webapps" ]; then
-  cp ROOT.war /Library/Tomcat/webapps
+  cp ROOT.war /Library/Tomcat/webapps1
   echo .
 fi
 mv ROOT.war ../
